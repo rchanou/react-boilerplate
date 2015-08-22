@@ -3,14 +3,7 @@ var path = require('path');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 
-/*
-  this is an example transpilation script for deploying to production.
-  note that it extracts css intoa separate bundle.
-  first, it creates a build folder if necessary.
-  then, it copies the index.html file in root to the build folder.
-  it then transpiles the src files and outputs the resulting files
-  to the build folder.
-*/
+// TODO: CREATE BUILD FOLDER IF IT DOESN't EXIST
 
 
 var config = {
@@ -20,7 +13,7 @@ var config = {
   ],
 
   output: {
-    path: path.join(__dirname, 'dist'),
+    path: path.join(__dirname, 'build'),
     filename: 'bundle.js',
     publicPath: '/'
   },
