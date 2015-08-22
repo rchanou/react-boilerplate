@@ -1,0 +1,46 @@
+{
+  "name": "react-composition-demo",
+  "version": "0.0.1",
+  "description": "Demo for Webpack and Component Composition (for ReactJS OC)",
+  "scripts": {
+    "start": "node dev.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rchanou/react-composition-demo.git"
+  },
+  "keywords": [
+    "composition",
+    "hot",
+    "live",
+    "react",
+    "reactjs",
+    "reactjs-oc",
+    "reload",
+    "webpack"
+  ],
+  "author": "Ronald ChanOu (http://github.com/rchanou)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rchanou/react-composition-demo/issues"
+  },
+  "homepage": "https://github.com/rchanou/react-composition-demo",
+  "devDependencies": {
+    "babel-core": "^5.4.7",
+    "babel-loader": "^5.1.2",
+    "css-loader": "^0.15.2",
+    "extract-text-webpack-plugin": "^0.8.2",
+    "file-loader": "^0.8.4",
+    "react-hot-loader": "^1.2.7",
+    "style-loader": "^0.12.3",
+    "url-loader": "^0.5.6",
+    "webpack": "^1.9.6",
+    "webpack-dev-server": "^1.8.2"
+  },
+  "dependencies": {
+    "jquery": "^2.1.4",
+    "react": "0.14.0-beta1",
+    "react-dom": "0.14.0-beta1",
+    "react-toggle": "^1.2.3"
+  }
+}
