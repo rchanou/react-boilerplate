@@ -1,30 +1,26 @@
 {
-  "name": "react-composition-demo",
+  "name": "react-boilerplate",
   "version": "0.0.1",
-  "description": "Demo for Webpack and Component Composition (for ReactJS OC)",
+  "description": "boilerplate",
   "scripts": {
     "start": "node dev.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/rchanou/react-composition-demo.git"
+    "url": "https://github.com/rchanou/react-boilerplate.git"
   },
   "keywords": [
-    "composition",
-    "hot",
-    "live",
     "react",
     "reactjs",
-    "reactjs-oc",
-    "reload",
-    "webpack"
+    "webpack",
+    "boilerplate"
   ],
-  "author": "Ronald ChanOu (http://github.com/rchanou)",
+  "author": "Ronald ChanOu (http://rchanou.github.io)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rchanou/react-composition-demo/issues"
+    "url": "https://github.com/rchanou/react-boilerplate/issues"
   },
-  "homepage": "https://github.com/rchanou/react-composition-demo",
+  "homepage": "https://github.com/rchanou/react-boilerplate",
   "devDependencies": {
     "babel-core": "^5.4.7",
     "babel-loader": "^5.1.2",
