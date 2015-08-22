@@ -38,9 +38,7 @@
     "webpack-dev-server": "^1.8.2"
   },
   "dependencies": {
-    "jquery": "^2.1.4",
     "react": "0.14.0-beta1",
-    "react-dom": "0.14.0-beta1",
-    "react-toggle": "^1.2.3"
+    "react-dom": "0.14.0-beta1"
   }
 }
